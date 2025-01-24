@@ -67,7 +67,7 @@ function Hero() {
             </motion.p>
             <motion.a
               variants={childVariants}
-              href="src/public/Giorgos - Lagkonakis CV.pdf"
+              href="/Giorgos - Lagkonakis CV.pdf"
               target="_blank"
               rel="nooper noreferrer"
               download

@@ -20,7 +20,7 @@ export const EXPERIENCES = [
     technologies: ["Javascript", "React.js", "Express.js", "MySQL"],
   },
   {
-    year: "December 2023 - November 2024",
+    year: "December 2022 - November 2023",
     role: "IT support",
     company: "XALKIADAKIS A.E",
     description: `Designed and Diagnoses and resolves hardware, software, and network issues to assist users with their technical needs.

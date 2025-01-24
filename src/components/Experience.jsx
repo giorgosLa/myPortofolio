@@ -7,7 +7,7 @@ function Experience() {
       <h3 className="my-14 text-4xl text-center">Experience</h3>
       <div>
         {EXPERIENCES.map((exp, index) => (
-          <div key={index} className="mb-4 flex flex-wrap lg:justify-center">
+          <div key={index} className="pt-8 mb-4  flex-wrap lg:justify-center">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
