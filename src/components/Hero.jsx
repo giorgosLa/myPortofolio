@@ -1,6 +1,8 @@
 import profile from "../assets/me.jpg";
 import { HERO_CONTENT } from "../assets/constants";
 import { motion } from "framer-motion";
+import { HiDownload } from "react-icons/hi";
+import { BsArrowRight } from "react-icons/bs";
 
 const containerVariants = {
   hidden: { opacity: 0, x: -100 },
@@ -30,10 +32,10 @@ function Hero() {
           <div className="flex justify-center lg:p-8">
             <motion.img
               src={profile}
-              className="border border-stone-900 rounded-3xl"
+              className="border border-stone-900 rounded-3xl "
               alt="Giorgos Lagonakis"
-              width={450}
-              height={450}
+              width={350}
+              height={350}
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 0.5 }}
@@ -65,15 +67,16 @@ function Hero() {
             >
               {HERO_CONTENT}
             </motion.p>
+
             <motion.a
               variants={childVariants}
-              href="/Giorgos_Lagkonakis_CV"
+              href="/CV"
               target="_blank"
-              rel="nooper noreferrer"
               download
-              className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
+              className="bg-white flex gap-2 justify-center rounded-full p-4 text-sm text-stone-800 mb-10"
             >
-              Download Resume
+              Download CV
+              <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
             </motion.a>
           </motion.div>
         </div>
