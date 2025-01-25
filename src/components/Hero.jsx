@@ -67,17 +67,6 @@ function Hero() {
             >
               {HERO_CONTENT}
             </motion.p>
-
-            <motion.a
-              variants={childVariants}
-              href="/CV"
-              target="_blank"
-              download
-              className="bg-white flex gap-2 justify-center rounded-full p-4 text-sm text-stone-800 mb-10"
-            >
-              Download CV
-              <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-            </motion.a>
           </motion.div>
         </div>
       </div>
