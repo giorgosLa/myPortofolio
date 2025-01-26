@@ -28,8 +28,7 @@ export const EXPERIENCES = [
     role: "IT support",
     company: "XALKIADAKIS A.E",
     description: `Designed and Diagnoses and resolves hardware, software, and network issues to assist users with their technical needs.
-    Troubleshooting, system maintenance, and user training are all performed to ensure that IT operations run smoothly.
-    Acts as the initial point of contact for technical inquiries, providing immediate resolution and great customer service. user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    Troubleshooting, system maintenance, and user training are all performed to ensure that IT operations run smoothly.`,
   },
 ];
 
